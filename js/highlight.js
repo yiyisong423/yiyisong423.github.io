@@ -26,7 +26,7 @@ const showCards = () => {
 			desp
 		}) =>
 		(output += `
-		<div class="col-md-8 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400">
+		<div class="col-sm-4 col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400">
    						<div class="icon-box">
    							<div class="icon"><i class='${cardIcon}'></i></div>
    							<h4 class="title"><a href="">${title}</a></h4>
